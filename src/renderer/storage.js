@@ -8,6 +8,10 @@ const KEYS = {
 export const defaultSettings = {
   workMin: 25,
   breakMin: 5,
+  longBreakMin: 15,
+  longBreakEvery: 4,
+  autoStartBreak: false,
+  autoStartWork: false,
 };
 
 export function loadSettings() {
